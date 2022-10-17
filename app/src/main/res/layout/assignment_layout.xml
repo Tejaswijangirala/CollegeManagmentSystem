@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llCardBack"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/black_borders_rounded_corners"
+    android:animateLayoutChanges="true"
+    android:padding="2dp"
+    android:orientation="vertical"
+    android:layout_marginBottom="6dp">
+
+  <!--  <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.cardview.widget.CardView>
+    -->
+    <TextView
+        android:id="@+id/subject_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/upper_round_corners"
+        android:text="Subject Name"
+        android:textAlignment="center"
+        android:textColor="#080809"
+        android:textSize="22dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_weight="5">
+
+            <TextView
+                android:id="@+id/assignment_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="Click ME"
+                android:textColor="#0B0A0A"
+                android:textSize="16dp" />
+
+            <TextView
+                android:textSize="12dp"
+                android:id="@+id/assm_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/assignment_no"
+                android:text="30-09-2020"/>
+
+          <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@id/due_date"
+                android:text="Due Date : "
+                android:textColor="#FD0303"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/due_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:text="06-10-2020"
+                android:textColor="#FD0000"
+                android:textSize="12dp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/down_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="42dp"
+            android:src="@drawable/ic_keyboard_arrow_down_black_24dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/expandable_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello guys can you see me"/>
+
+    </LinearLayout>
+
+</LinearLayout>

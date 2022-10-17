@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/allerta_stencil</item>
+        <item>@font/amarante</item>
+        <item>@font/artifika</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/bevan</item>
+        <item>@font/carter_one</item>
+        <item>@font/condiment</item>
+        <item>@font/fugaz_one</item>
+        <item>@font/graduate</item>
+        <item>@font/holtwood_one_sc</item>
+        <item>@font/iceberg</item>
+        <item>@font/racing_sans_one</item>
+        <item>@font/russo_one</item>
+        <item>@font/trade_winds</item>
+    </array>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/exams_list"
+    android:layout_marginBottom="3dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@drawable/two_round_tl_tr"
+        android:padding="3dip"
+        android:text="July 07 2020 "
+        android:textColor="@color/cardview_light_background" />
+
+    <LinearLayout
+        android:background="@drawable/three_round_corners_tl_bl_br"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_below="@id/date"
+            android:id="@+id/exam_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 Yr - 1 Sem - Mid 1 (Examination)"
+            android:textSize="18sp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/exams_timetable"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/exam_name"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"
+            android:background="@drawable/rounded_corners_background_2"
+            android:minHeight="35dip"
+            android:padding="0dp"
+            android:text="Show Result"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/list_layout"
+    android:padding="1dip"
+    android:layout_marginRight="2dip"
+    android:background="@drawable/background_of_timetable_items">
+
+
+    <TextView
+        android:id="@+id/item_title"
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/roundedd_corners_background_3"
+        android:text="9:50 AM - 10:40 AM"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"/>
+
+
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Mathematics - III"
+        android:textSize="18sp"
+        android:layout_below="@id/item_title"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_below="@id/description"
+        android:text="UPCOMING"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

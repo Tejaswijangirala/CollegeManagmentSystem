@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/student_navigation"
+    app:startDestination="@id/nav_student_dashboard">
+
+    <fragment
+        android:id="@+id/nav_student_attendance"
+        android:name="com.example.chaitanya_university_2.student_attendance"
+        android:label="@string/menu_attendance"
+        tools:layout="@layout/fragment_student_attendance" />
+    <fragment
+        android:id="@+id/nav_student_timetable"
+        android:name="com.example.chaitanya_university_2.student_timetable"
+        android:label="@string/menu_timetable"
+        tools:layout="@layout/fragment_student_timetable" />
+    <fragment
+        android:id="@+id/nav_student_dashboard"
+        android:name="com.example.chaitanya_university_2.student_dashboard"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_student_dashboard" />
+    <fragment
+        android:id="@+id/nav_student_exams_results"
+        android:name="com.example.chaitanya_university_2.student_exams_results"
+        android:label="@string/menu_exams_results"
+        tools:layout="@layout/fragment_student_exams_results" />
+    <fragment
+        android:id="@+id/nav_student_assignments"
+        android:name="com.example.chaitanya_university_2.student_assignments"
+        android:label="@string/menu_assignments"
+        tools:layout="@layout/fragment_student_assignments" />
+    <fragment
+        android:id="@+id/nav_student_fees"
+        android:name="com.example.chaitanya_university_2.student_fees"
+        android:label="@string/menu_fees"
+        tools:layout="@layout/fragment_student_fees" />
+    <fragment
+        android:id="@+id/nav_student_library"
+        android:name="com.example.chaitanya_university_2.student_library"
+        android:label="@string/menu_library"
+        tools:layout="@layout/fragment_student_library" />
+    <fragment
+        android:id="@+id/nav_student_profile_settings"
+        android:name="com.example.chaitanya_university_2.student_profile_settings"
+        android:label="@string/menu_profile_settings"
+        tools:layout="@layout/fragment_student_profile_settings" />
+    <fragment
+        android:id="@+id/nav_student_feedback"
+        android:name="com.example.chaitanya_university_2.student_bug_report"
+        android:label="@string/menu_feedback"
+        tools:layout="@layout/fragment_student_bug_report" />
+</navigation>

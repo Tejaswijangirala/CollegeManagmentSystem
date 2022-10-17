@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".student_drawer_panel"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_student_dashboard"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_student_timetable"
+            android:icon="@drawable/ic_access_time_black_24dp"
+            android:title="@string/menu_timetable" />
+        <item
+            android:id="@+id/nav_student_attendance"
+            android:icon="@drawable/ic_pan_tool_black_24dp"
+            android:title="@string/menu_attendance"
+            android:visible="true"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/nav_student_exams_results"
+            android:icon="@drawable/ic_content_paste_black_24dp"
+            android:title="@string/menu_exams_results" />
+
+        <item
+            android:id="@+id/nav_student_assignments"
+            android:icon="@drawable/ic_create_black_24dp"
+            android:title="@string/menu_assignments" />
+
+        <item
+            android:id="@+id/nav_student_library"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="@string/menu_library" />
+        <item
+            android:id="@+id/nav_student_fees"
+            android:icon="@drawable/ic_monetization_on_black_24dp"
+            android:title="@string/menu_fees" />
+
+       <item
+            android:id="@+id/nav_student_feedback"
+            android:icon="@drawable/ic_feedback_black_24dp"
+            android:title="@string/menu_feedback" />
+        <item
+            android:id="@+id/nav_student_profile_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/menu_profile_settings" />
+
+        <item
+            android:id="@+id/nav_student_logout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="@string/menu_logout" />
+
+    </group>
+
+</menu>
+

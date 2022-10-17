@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/student_exams_results_nav_graph"
+    app:startDestination="@id/student_exams_results_tablayout">
+
+    <fragment
+        android:id="@+id/student_exams_results_tablayout"
+        android:name="com.example.chaitanya_university_2.student_exams_results_tablayout"
+        android:label="fragment_student_exams_results_tablayout"
+        tools:layout="@layout/fragment_student_exams_results_tablayout" >
+        <action
+            android:id="@+id/action_student_exams_results_tablayout_to_student_exam_timetable"
+            app:destination="@id/student_exam_timetable" />
+        <action
+            android:id="@+id/action_student_exams_results_tablayout_to_student_resluts_byexams"
+            app:destination="@id/student_resluts_byexams" />
+    </fragment>
+    <fragment
+        android:id="@+id/student_exam_timetable"
+        android:name="com.example.chaitanya_university_2.student_exam_timetable"
+        android:label="fragment_student_exam_timetable"
+        tools:layout="@layout/fragment_student_exam_timetable" />
+    <fragment
+        android:id="@+id/student_resluts_byexams"
+        android:name="com.example.chaitanya_university_2.student_resluts_byexams"
+        android:label="fragment_student_resluts_byexams"
+        tools:layout="@layout/fragment_student_resluts_byexams" />
+</navigation>
